@@ -84,3 +84,5 @@ if local_version != remote_version:
     else:
         toaster.show_toast("ffmpeg更新成功", "ffmpeg已更新至" + latest_build[0], threaded=30)
     shutil.rmtree(tempdir)
+else:
+    toaster.show_toast("ffmpeg未检测更新")
