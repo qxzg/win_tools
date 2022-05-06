@@ -1,0 +1,6 @@
+.idea/*
+__pycache__
+Auto_update_ffmpeg/build
+Auto_update_ffmpeg/dist
+*.spec
+*.exe
