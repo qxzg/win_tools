@@ -1,2 +1,2 @@
-requests==2.29.0
+requests==2.30.0
 win10toast==0.9
